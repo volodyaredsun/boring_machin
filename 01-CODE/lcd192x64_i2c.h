@@ -17,7 +17,7 @@
 
 #define _PIN_RS     (1 << 0)    // 1 - DATA, 0 - Instruction
 #define _PIN_RW     (1 << 1)    // 1 - Read (LCD -> MCU) 0 - Write (MCU -> LCD)
-#define _PIN_E      (1 << 2)    // 2023.08.25 отключил, завел на B8 ногу
+#define _PIN_E      (1 << 2)    // 0/1 - Enable signal
 #define _PIN_CS1	(1 << 3)    // 0 - Select 1-64 columns, 1 - off
 #define _PIN_RST	(1 << 4)	// 1 - normal work, 0 - reset lcd
 #define _PIN_CS2	(1 << 5)	// 0 - Select 65-128 columns, 1 - off
